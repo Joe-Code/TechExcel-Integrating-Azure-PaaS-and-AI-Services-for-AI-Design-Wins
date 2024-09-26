@@ -65,7 +65,7 @@ jobs:
     needs: dockerBuildPush
     environment:
       name: prod
-      url: https://rsgate22362cm-api-api.azurewebsites.net/
+      url: https://rsgate22362cm-api.azurewebsites.net/
     
     steps:
     - uses: actions/checkout@v4
